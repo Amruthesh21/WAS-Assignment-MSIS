@@ -1,0 +1,44 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9fd7978f; /* Light gray background */
+    color: #d80d0d; /* Dark gray text */
+}
+
+/* Heading Styling */
+h1 {
+    text-align: center;
+    color: #007BFF; /* Blue color */
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+/* Video Container Styling */
+iframe {
+    display: block;
+    margin: 20px auto; /* Center the video */
+    border: 5px solid #007BFF; /* Add a blue border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Link Styling */
+a {
+    display: inline-block;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 1rem;
+    color: #007BFF; /* Blue text */
+    text-decoration: none;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a:hover {
+    background-color: #007BFF; /* Blue background */
+    color: #fff; /* White text */
+}
